@@ -2,7 +2,7 @@ name: "[1] On Push"
 
 on:
   push:
-    branches: ["first"]
+    branches: ["main"]
     paths: ["first/**"]
   workflow_dispatch:
 
