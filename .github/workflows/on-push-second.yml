@@ -1,0 +1,13 @@
+name: "[2] On Push"
+
+on:
+  push:
+    branches: ["second"]
+    paths: ["second/**"]
+  workflow_dispatch:
+
+jobs:
+  echo-message:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
