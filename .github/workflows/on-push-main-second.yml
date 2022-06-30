@@ -1,9 +1,9 @@
-name: "[1] On Push"
+name: "[2][MAIN] On Push"
 
 on:
   push:
     branches: ["main"]
-    paths: ["first/**"]
+    paths: ["second/**"]
   workflow_dispatch:
 
 jobs:
